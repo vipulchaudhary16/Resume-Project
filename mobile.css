@@ -1,0 +1,74 @@
+@media (max-width : 700px)
+{
+    #body-header {
+        height: 45vh;
+        padding-top: 0.8rem;
+    }
+    #name-social-container {
+        margin-top: 6vh;
+    }
+
+
+    #my-name{
+        font-size: 2rem;
+        text-shadow: 1px 2px black;
+        margin-bottom: 0;
+    }
+
+    #name-social-container .social-icons li a i {
+        width: 1rem;
+        margin-top: 1.4rem;
+        padding: 10px;
+    }
+
+    #my-img{
+        height: 9rem;
+        width: 9rem;
+        margin: auto;
+        margin-top: -11vh;
+    }
+
+    #about-para{
+        width: 75%;
+        line-height: 20px;
+        font-size: 0.9rem;
+    }
+    
+
+.section-heading{
+    padding: 0;
+}
+.section-heading span{
+    padding: 0;
+    font-size: 20px;
+}
+
+.skills-display{
+    width: 100% ;
+    justify-content: center;
+}
+
+.skill-progress{
+    margin: 5px;
+    border: 1px solid black;
+}
+#portfolio-container {
+    margin-bottom: 30px;
+    justify-content: space-around;
+    padding: 0 10px;
+}
+
+.portfolio-image-container img {
+    width: 150px;
+    height: 100px;
+    padding: 0px;
+}
+
+
+
+
+.mb75px{
+    margin-bottom: 10px;
+}
+
+}
