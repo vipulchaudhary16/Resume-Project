@@ -1,7 +1,7 @@
 @media (max-width : 700px)
 {
     #body-header {
-        height: 45vh;
+        height: 40vh;
         padding-top: 0.8rem;
     }
     #name-social-container {
@@ -64,11 +64,53 @@
     padding: 0px;
 }
 
+.portfolio-image-container a
+{
+    background-color: #29191978;
+    border-radius: 8%;
+}
 
 
+
+.portfolio-image-container:hover .portfolio-details a {
+    background-color:inherit;
+
+}
+
+.portfolio-details a{
+    color: white;
+    font-size: 0.7rem;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sub-btn{
+    font-size: medium;
+}
 
 .mb75px{
     margin-bottom: 10px;
+}
+
+#my-details-container{
+    text-align:left;
+
+}
+
+.my-details-info-container
+{
+    display: flex;
+}
+
+#contact-form button[type="submit"] {
+    font-size: 0.65rem;
+    border-radius: 2px;
+    letter-spacing:0;
+    padding: 5px 5px 5px;
 }
 
 }
