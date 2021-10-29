@@ -1,116 +1,36 @@
-@media (max-width : 700px)
-{
-    #body-header {
-        height: 40vh;
-        padding-top: 0.8rem;
-    }
-    #name-social-container {
-        margin-top: 6vh;
-    }
-
-
-    #my-name{
-        font-size: 2rem;
-        text-shadow: 1px 2px black;
-        margin-bottom: 0;
-    }
-
-    #name-social-container .social-icons li a i {
-        width: 1rem;
-        margin-top: 1.4rem;
-        padding: 10px;
-    }
-
-    #my-img{
-        height: 9rem;
-        width: 9rem;
-        margin: auto;
-        margin-top: -11vh;
-    }
-
-    #about-para{
-        width: 75%;
-        line-height: 20px;
-        font-size: 0.9rem;
-    }
-    
-
-.section-heading{
-    padding: 0;
+@media only screen and (max-width: 650px) {
+  #body-header {
+    height: 40vh !important;
+  }
+  #name-social-container {
+    margin-top: 50px !important;
+  }
+  #name-social-container .social-icons li a i {
+    padding: 8px !important;
+    margin-top: 10px;
 }
-.section-heading span{
-    padding: 0;
-    font-size: 20px;
-}
+  #my-name {
+    font-size: 1.5rem !important;
+  }
+  #about-para {
+    width: 80% !important;
+    text-align: left !important;
+    font-size: 1.1rem;
+  }
+  .skills-display {
+    width: 90% !important;
+    justify-content: space-around !important;
+  }
+  .skill-progress {
+    width: 6rem !important;
+    height: 1.5rem !important;
+    margin: 5px !important;
+  }
+  .skill-name {
+    font-size: 0.7rem !important;
+  }
 
-.skills-display{
-    width: 100% ;
-    justify-content: center;
-}
-
-.skill-progress{
-    margin: 5px;
-    border: 1px solid black;
-}
-#portfolio-container {
-    margin-bottom: 30px;
-    justify-content: space-around;
-    padding: 0 10px;
-}
-
-.portfolio-image-container img {
-    width: 150px;
-    height: 100px;
-    padding: 0px;
-}
-
-.portfolio-image-container a
-{
-    background-color: #29191978;
-    border-radius: 8%;
-}
-
-
-
-.portfolio-image-container:hover .portfolio-details a {
-    background-color:inherit;
-
-}
-
-.portfolio-details a{
-    color: white;
-    font-size: 0.7rem;
-    text-align: center;
-    padding: 10px;
-    text-decoration: none;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.sub-btn{
-    font-size: medium;
-}
-
-.mb75px{
-    margin-bottom: 10px;
-}
-
-#my-details-container{
-    text-align:left;
-
-}
-
-.my-details-info-container
-{
-    display: flex;
-}
-
-#contact-form button[type="submit"] {
-    font-size: 0.65rem;
-    border-radius: 2px;
-    letter-spacing:0;
-    padding: 5px 5px 5px;
-}
-
+  .mb75px {
+    margin-bottom: 20px !important;
+  }
 }

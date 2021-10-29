@@ -7,14 +7,13 @@
     --cpp:75%;
     --java : 60%;
     --py:60%;
+    --rJs:50%;
+    --and:20%;
 }
-
-
 body {
     margin: 0px;
     font-family: sans-serif;
 }
-
 /* Body Header */
 
 #body-header {
@@ -60,7 +59,7 @@ body {
 /* Name and Social Icons*/
 
 #name-social-container {
-    margin-top: 20vh;
+    margin-top: 120px;
 }
 
 #my-name {
@@ -71,10 +70,6 @@ body {
     margin-bottom: 0.5rem;
 }
 
-#name-social-container .social-icons li:hover {
-    box-shadow: 0px 0px 8px 4px rgba(230, 196, 196, 0.3);
-    /* X Y blur spread*/
-}
 
 #name-social-container .social-icons li a i:hover {
     box-shadow: 0px 0px 8px 4px rgba(230, 196, 196, 0.3);
@@ -194,18 +189,18 @@ section:nth-child(2n + 1) {
     box-sizing: border-box;
     display: flex;
     flex-wrap: wrap;
-    /* padding: 0 50px; */
     margin-bottom: 50px;
     justify-content: space-around;
 }
 
 .portfolio-image-container {
     max-width: 300px;
-    overflow: hidden;
     margin: 10px;
     background-size: cover;
     background-repeat: no-repeat;
     position: relative;
+    border: 1px solid black;
+    overflow: hidden;
 }
 
 .portfolio-image-container{
@@ -215,8 +210,8 @@ section:nth-child(2n + 1) {
 }
 
 .portfolio-image-container img {
-    width: 250px;
-    height: 200px;
+    width: 100px;
+    height: 100px;
     padding: 10px;
     border-radius: 8%;
 
@@ -237,12 +232,8 @@ section:nth-child(2n + 1) {
     align-items: center;
 }
 
-.portfolio-image-container:hover {
-    box-shadow: 0 0 10px #74ADC8;
-}
-
 .portfolio-image-container:hover .portfolio-details a {
-    background-color: #29191978;
+    background-color:black;
     color: white;
 
 }
@@ -410,6 +401,12 @@ button:focus {
 .color-py{
     background:linear-gradient(#0c6dc7,#dbdb14);
 }
+.color-rJs{
+    background:yellowgreen;
+}
+.color-and{
+    background:green;
+}
 
 /*Transition class*/
 .transition{
@@ -526,5 +523,33 @@ button:focus {
     to
     {
         width: var(--py);
+    }
+}
+.rJs-percent{
+    height: inherit;
+    width: var(--rJs);
+    animation: rJs 2s ease-out 0s 1 forwards;
+}
+@keyframes rJs{
+    from{
+        width: 0%;
+    }
+    to
+    {
+        width: var(--rJs);
+    }
+}
+.and-percent{
+    height: inherit;
+    width: var(--and);
+    animation: and 2s ease-out 0s 1 forwards;
+}
+@keyframes and{
+    from{
+        width: 0%;
+    }
+    to
+    {
+        width: var(--and);
     }
 }
