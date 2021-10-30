@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
 @media only screen and (max-width: 650px) {
   #body-header {
     height: 40vh !important;
@@ -8,7 +9,7 @@
   #name-social-container .social-icons li a i {
     padding: 8px !important;
     margin-top: 10px;
-}
+  }
   #my-name {
     font-size: 1.5rem !important;
   }
@@ -16,6 +17,7 @@
     width: 80% !important;
     text-align: left !important;
     font-size: 1.1rem;
+    font-family: 'Dancing Script', cursive;
   }
   .skills-display {
     width: 90% !important;
@@ -32,5 +34,52 @@
 
   .mb75px {
     margin-bottom: 20px !important;
+  }
+
+  .mb50px {
+    margin-bottom: 10px !important;
+  }
+
+  .portfolio-image-container {
+    margin: 5px !important;
+    font-size: 13px !important;
+  }
+  .portfolio-image-container img {
+    width: 100px !important;
+    height: 100px !important;
+    padding: 10px;
+    border-radius: 8%;
+  }
+  .portfolio-image-container:hover .portfolio-details a {
+    background-color: transparent !important;
+    color: transparent !important;
+  }
+
+  #contact{
+    padding-bottom: 10px !important;
+  }
+
+  #contact h1{
+    font-size: 0.8rem !important;
+  }
+
+  #contact-container {
+    display:unset !important;
+  }
+
+  #my-details-container {
+    width: 100% !important;
+    display: flex !important;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start ;
+  }
+  
+  #contact-form-container ,#my-details-container h3 ,#my-details-container p{
+    display: none !important;
+  }
+
+  .hideInMobile{
+    display: none !important;
   }
 }

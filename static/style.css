@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Scheherazade+New&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap');
 :root{
     --html : 85%;
     --CSS : 80%;
@@ -38,7 +40,6 @@ body {
     display: inline-block;
     margin: 0px 8px 8px 0px;
     font-weight: 100;
-    font-size: 0.9rem;
 }
 
 .horizontal-list li a {
@@ -60,6 +61,7 @@ body {
 
 #name-social-container {
     margin-top: 120px;
+    font-family: 'Dancing Script', cursive;
 }
 
 #my-name {
@@ -142,7 +144,8 @@ section:nth-child(2n + 1) {
     text-align: justify;
     color: grey;
     line-height: 28px;
-    font-size: 1.1rem;
+    font-size: 1.2rem;
+    
 }
 
 /*Skills Section*/
@@ -199,19 +202,21 @@ section:nth-child(2n + 1) {
     background-size: cover;
     background-repeat: no-repeat;
     position: relative;
-    border: 1px solid black;
     overflow: hidden;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 .portfolio-image-container{
     display: flex;
+    flex-direction: column;
     justify-content: center;
-    font-size: 25px;
+    align-items: center;
+    font-size: 15px;
 }
 
 .portfolio-image-container img {
-    width: 100px;
-    height: 100px;
+    width:150px;
+    height: 150px;
     padding: 10px;
     border-radius: 8%;
 
@@ -233,7 +238,7 @@ section:nth-child(2n + 1) {
 }
 
 .portfolio-image-container:hover .portfolio-details a {
-    background-color:black;
+    background-color:rgba(0, 0, 0, 0.662);
     color: white;
 
 }
@@ -241,8 +246,6 @@ section:nth-child(2n + 1) {
 /*Contact Section*/
 
 #contact {
-    background-color: #0abcf9;
-    /* background-image: linear-gradient(50deg, #2857a4 0%, #403066 74%); */
     background: linear-gradient(to bottom right ,#d97b34 ,  #eaedd8 ,  #008000 );
     color: black;
     padding-bottom: 40px;
@@ -269,7 +272,7 @@ section:nth-child(2n + 1) {
 
 #my-details-container {
     width: 35%;
-    margin-left: 6%;
+    margin-left: 6%; 
 }
 
 #my-details-container h3 {
@@ -284,7 +287,8 @@ section:nth-child(2n + 1) {
 
 #my-details-container p {
     color: #061407;
-    font-size: 0.9rem;
+    font-size: 1.2rem;
+    font-family: 'Dancing Script', cursive;
 }
 
 .my-details-info-container {
